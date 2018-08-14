@@ -1,0 +1,7 @@
+<RCC>
+<qresource>
+	<file>images/main_bg.png</file>
+	<file>images/button_bg.png</file>
+	<file>images/button_bg_disable.png</file>
+</qresource>
+</RCC>
