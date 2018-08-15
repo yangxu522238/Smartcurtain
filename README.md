@@ -11,9 +11,9 @@ These instruction will get you a copy of the project up and running on your 410c
 Reference materials Python：https://www.python.org/ PyQt：https://doc.qt.io/archives/qt-4.8/index.html
 
 instruction hardwareSetup: 
+--------
 
-Dragonboard 410c
-Figure 1: Development board
+Figure 1: Development board(Dragonboard 410c)
 -----
 According to the hardware schematic, GPIO_13 is selected to determine the state of the limit switch; Selecting GPIO_12 and GPI0_69 to control the forward and reverse rotation of the DC motor. When GPIO_12 is high and GPIO_69 is low, the DC motor rotates forward and the curtain opens; When GPIO_12 is low and GPIO69 is high, the DC motor reverses and the curtain closes. When GPIO_13 is low, the shade has been completely opened or closed.
 （2）Voltage conversion module The output voltage of the Dragonboard 410c pin is 1.8V. However, the motor drive module requires a supply voltage of 3.3V-5V. In order to improve the stability of the system and prevent the voltage difference from causing reverse current damage to the chip, the PCA9306 voltage conversion module was chosen for bridging. As shown in Figure 2:
