@@ -11,6 +11,7 @@ These instruction will get you a copy of the project up and running on your 410c
 Reference materials Python：https://www.python.org/ PyQt：https://doc.qt.io/archives/qt-4.8/index.html
 
 instruction hardwareSetup: 
+
 Dragonboard 410c
 Figure 1: Development board
 -----
