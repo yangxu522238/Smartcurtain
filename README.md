@@ -15,11 +15,11 @@ Dragonboard 410c
 Figure 1: Development board
 -----
 According to the hardware schematic, GPIO_13 is selected to determine the state of the limit switch; Selecting GPIO_12 and GPI0_69 to control the forward and reverse rotation of the DC motor. When GPIO_12 is high and GPIO_69 is low, the DC motor rotates forward and the curtain opens; When GPIO_12 is low and GPIO69 is high, the DC motor reverses and the curtain closes. When GPIO_13 is low, the shade has been completely opened or closed.
-（2）Voltage conversion module The output voltage of the Dragonboard 410c pin is 1.8V. However, the motor drive module requires a supply voltage of 3.3V-5V. In order to improve the stability of the system and prevent the voltage difference from causing reverse current damage to the chip, the PCA9306 voltage conversion module was chosen for bridging. As shown in Figure 3:
+（2）Voltage conversion module The output voltage of the Dragonboard 410c pin is 1.8V. However, the motor drive module requires a supply voltage of 3.3V-5V. In order to improve the stability of the system and prevent the voltage difference from causing reverse current damage to the chip, the PCA9306 voltage conversion module was chosen for bridging. As shown in Figure 2:
 
 Figure 2: Voltage Conversion Module
 -------
-（3）Motor drive module The motor drive module is used to provide voltage and current to the motor and control the positive and negative rotation of the motor. （4）Breadboard Using breadboards saves wires and simplifies wiring. As shown in Figure 5:
+（1）Motor drive module The motor drive module is used to provide voltage and current to the motor and control the positive and negative rotation of the motor. （2）Breadboard Using breadboards saves wires and simplifies wiring. As shown in Figure 3:
 
 Figure 3: Physical connection 
 -------
